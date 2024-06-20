@@ -1,10 +1,9 @@
 package crud.demo.controller.requstForm;
 
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
 import lombok.ToString;
 
-@RequiredArgsConstructor
+@Getter
 @ToString
 public class CreateForm {
     private String title;
